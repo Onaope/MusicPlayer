@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <title>Music Player</title> 
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font Awesome -->
+<link
+  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Karla:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/1.0.0/mdb.min.css"
+  rel="stylesheet"
+/>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <script>
+    // MDB Lightbox Init
+        $(function () {
+            $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+        });
+
+        // Adding animations to the sections
+        $("section").addClass("wow fadeIn");
+
+        // Animations Init
+        new WOW().init();
+   </script>
+</head>
+<body>
+ <!-- Main navigation -->
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar">
+            <div class="container">
+                <a class="article_title h1-responsive navbar-brand font-weight-bold" href="#">Musico<span class="text-success">.</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar"><i class="fas fa-signal fa-rotate-270 text-success"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav topnav mx-auto smooth-scroll pullup">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#intro">Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Features" data-offset="90">Features</a>
+                     
+                      </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Download" data-offset="90">Downloads</a>
+                       
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar -->
+       <!-- Full Page Intro -->
+  <div class="view" id="intro">
+
+    <!-- Mask & flexbox options-->
+    <div class="mask">
+
+      !-- Content -->
+      <div class="container">
+
+        <div class="row mb-4">
+         
+        <div class="col-md-8 col-xs-12 mb-4">
+          
+            <h1 class="display-4 text-success font-weight-bold">Good Music for Everyone</h1>
+
+            <p class="mb-4 lead text-white text-muted text-left">
+              Select the layer you'd like to adjust.
+                              In the Fill section of the Properties Panel, 
+                              click on the Image thumbnail to open. 
+            </p>
+              <span class="mx-auto mb-5">
+          <button class="btn btn-rounded btn-success"><i class="fab fa-google-play mr-1"></i>
+            Download now
+          </button>
+           <button class="btn btn-rounded btn-outline-success"><i class="fab fa-apple  mr-1"></i>
+            Download now
+          </button>
+              </span>
+            </div>
+      </div>
+     </div>
+    </div>
+      <!-- Content -->
+    </div>
+    <!-- Mask & flexbox options-->
+</header>
+ 
+
+    <!--Main layout-->
+    <main>
+        <section id="Features" class="text-white bg-dark pt-5">
+
+          <div class="mb-5 pb-3 pt-3 text-left mx-2">
+         
+        <h1 class="h1-responsive text-white ml-3 font-weight-bold">
+          App features
+        </h1>
+           <hr class="hr mb-5 ml-3" style="width: 16%; 
+                                 height: 3px !important; 
+                                 background-color: #23E058 !important;
+                                 text-align: left;
+                                 border-radius: 10px;"/>
+         
+          </div>
+         <!--Grid row-->
+                <div class="row mx-auto bg-dark">
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-5">
+                      <div class="card mx-3 px-3 py-3 bg-dark z-depth-4">
+                        
+                      <i class="far fa-user-circle fa-4x" style="color: #23E058;"></i>
+                        <h4 class="my-4 font-weight-bold">User Accounts</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
+                            maiores nam,
+                            aperiam minima
+                            assumenda deleniti hic.</p>
+                        
+                      </div>
+                    </div>
+                    <!--Grid column-->
+
+                     <!--Grid column-->
+                    <div class="col-md-4 mb-5">
+                      <div class="card mx-3 px-3 py-3 bg-dark z-depth-4">
+                        
+                        <i class="fas fa-cloud fa-4x" style="color: #23E058;"></i>
+                        <h4 class="my-4 font-weight-bold">Offline Usability</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
+                            maiores nam,
+                            aperiam minima
+                            assumenda deleniti hic.</p>
+                        
+                      </div>
+                    </div>
+                    <!--Grid column-->
+
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-5">
+                      <div class="card mx-3 px-3 py-3 bg-dark z-depth-4">
+                        
+                      <span class="fa-stack fa-2x" >
+                         <i class="fas fa-wifi fa-1x mx-3 px-1" style="color: #23E058;"></i>
+                         <i class="fas fa-ban fa-stack-2x pt-1" style="color: #23E058;"></i>
+                         </span>
+                        <h4 class="my-4 font-weight-bold">Cloud Storage</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
+                            maiores nam,
+                            aperiam minima
+                            assumenda deleniti hic.</p>
+                        
+                      </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+                <!--Grid row-->
+                <div class="row mx-auto bg-dark">
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-5">
+                      <div class="card mx-3 px-3 py-3 bg-dark z-depth-4">
+                        <i class="fas fa-share-alt fa-4x" style="color: #23E058;"></i>
+                        <h4 class="my-4 font-weight-bold">Social Sharing</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
+                            maiores nam,
+                            aperiam minima
+                            assumenda deleniti hic.</p>
+                        
+                      </div>
+                    </div>
+                    <!--Grid column-->
+
+                     <!--Grid column-->
+                    <div class="col-md-4 mb-5">
+                      <div class="card mx-3 px-3 py-3 bg-dark z-depth-4">
+                       
+                       <span class="fa-stack fa-2x inline" >
+                         <i class="fas fa-bars fa-2x pl-1" style="color: #23E058;"></i>
+                         <i class="fas fa-music fa-stack-2x ml-5" style="color: #23E058;"></i>
+                         </span>
+                        <h4 class="my-4 font-weight-bold">Authorized Playlist</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
+                            maiores nam,
+                            aperiam minima
+                            assumenda deleniti hic.</p>
+                        
+                      </div>
+                    </div>
+                    <!--Grid column-->
+
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-5">
+                      <div class="card mx-3 px-3 py-3 bg-dark z-depth-4">
+                        
+                      <i class="fas fa-sync fa-4x" style="color: #23E058;"></i>
+                        <h4 class="my-4 font-weight-bold">Regular Updates</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
+                            maiores nam,
+                            aperiam minima
+                            assumenda deleniti hic.</p>
+                        
+                      </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+          </section>
+      <section id="Download" class="bg">
+                <!--Grid row-->
+      <div class="row">
+        <div class="mx-auto pb-5 mb-5">
+       <div class="mb-5 pb-3">
+         
+        <h1 class="h1-responsive text-white text-center mt-3 font-weight-bold">
+          Get the App
+        </h1>
+           <hr class="hr-light mb-5"/>
+         
+          </div>
+        <span class="mx-auto">
+          <button class="btn btn-rounded btn-success"><i class="fab fa-google-play mr-1"></i>
+            Download now
+          </button>
+           <button class="btn btn-rounded btn-outline-success"><i class="fab fa-apple  mr-1"></i>
+            Download now
+          </button>
+          
+        </span>
+          
+        </div>
+      </div>
+             </section>      
+                
+
+    </main>
+    <!--Main layout-->
+
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-black pt-4">
+
+        <!-- Footer Elements -->
+        <div class="container font-small text-center">
+   
+        <div class="text-center py-5">
+          <p class="h1-responsive">
+            Musico 
+          </p>
+        <a href="#intro"> Home</a><i class="fas fa-circle mr-1 ml-2 text-success"></i>
+          <a href="#Features"> Features</a><i class="fas fa-circle mr-1 ml-2 text-success"></i>
+          <a href="#Download"> Download</a>
+        </div>
+      </div>
+      </footer>
+      <!-- Footer -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/1.0.0/mdb.min.js"
+></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  
+</body>
+</html>
