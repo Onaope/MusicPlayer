@@ -4,6 +4,7 @@ html,
 body,
 header{
     height: 100%;
+     font-family: "Karla", sans-serif;
 }
 body{
   background-color: black;
