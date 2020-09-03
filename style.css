@@ -1,0 +1,73 @@
+/* Required for full background image */
+
+html,
+body,
+header{
+    height: 100%;
+}
+body{
+  background-color: black;
+}
+#intro{
+   /* The image used */
+  background-image: url("https://i.ibb.co/vX6xzcy/Untitled-design.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Download{
+  /* The image used */
+  background-image: url("https://i.ibb.co/N2vH7KD/i-Phone-11-Pro-Max-5-2.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 740px) {
+    html,
+    body,
+    header,
+    #intro, 
+  #Download{
+        height: 100vh;
+    }
+}
+&__title {
+    @include responsive-font-size(30px);
+    margin: 0;
+  }
+.active{
+ border-bottom-color: #23E058 !important;
+  border-bottom-width: 5px;
+  border-bottom-style: 5px solid;
+  color: #23E058 !important;
+}
+
+.top-nav-collapse, .page-footer {
+    background-color:black !important;
+}
+.hr-light{
+  width: 30%; 
+  height: 3px !important; 
+  background-color: #23E058 !important;
+  border-radius: 10px;
+}
+.navbar:not(.top-nav-collapse) {
+    background: black !important;
+}
+
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: black !important;
+    }
+}
+
