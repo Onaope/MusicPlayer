@@ -47,7 +47,7 @@ body{
     margin: 0;
   }
 
-.nav-item:active{
+.nav-item:active, .nav-item::after{
 border-bottom: 4px solid #23E058 !important;
 }
 
