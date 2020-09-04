@@ -56,8 +56,8 @@ body{
 .top-nav-collapse, .page-footer {
     background-color:black !important;
 }
-.hr-light{
-  width: 30%; 
+.light{
+  width: 20%; 
   height: 3px !important; 
   background-color: #23E058 !important;
   border-radius: 10px;
