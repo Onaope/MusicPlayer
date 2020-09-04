@@ -46,11 +46,9 @@ body{
     @include responsive-font-size(30px);
     margin: 0;
   }
-.active{
- border-bottom-color: #23E058 !important;
-  border-bottom-width: 5px;
-  border-bottom-style: 5px solid;
-  color: #23E058 !important;
+
+.nav-item:active{
+border-bottom: 4px solid #23E058 !important;
 }
 
 .top-nav-collapse, .page-footer {
